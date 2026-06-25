@@ -1,14 +1,14 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "SoloCloudHosting",
+    "username": "jenishpant",
     "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "MoonVerseMC.aternos.me",
     "port": 40648,
-    "version": "1.20.1",
+    "version": "1.21.4",
     "try-creative": false
   },
   "position": {
@@ -45,7 +45,7 @@
     "enabled": true,
     "circle-walk": {
       "enabled": true,
-      "radius": 4,
+      "radius": 1000,
       "speed": 3000
     },
     "look-around": {
@@ -58,7 +58,7 @@
     }
   },
   "modules": {
-    "avoidMobs": true,
+    "avoidMobs": false,
     "combat": true,
     "beds": false,
     "chat": true,
